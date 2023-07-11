@@ -1,0 +1,476 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.v215_300 {
+  width: 100%;
+  height: 1800px;
+  background: rgba(255, 255, 255, 1);
+  padding: 10px 10px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v215_302 {
+  width: 100%;
+  height: 900px;
+  background: url("../images/sfondo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.search_gen {
+  width: 550px;
+  height: 38px;
+  border-radius: 5rem;
+  border: 3px solid white;
+  position: absolute;
+  top: 22%;
+  left: 32%;
+  text-indent: 8%;
+  align-items: center;
+  justify-content: center;
+}
+
+.ricerca_gen {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 22.3%;
+  left: 33%;
+}
+
+.subtitolo {
+  width: 567px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 17%;
+  left: 31%;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.titolo {
+  width: 100%;
+  color: url("../images/v215_306.png");
+  position: absolute;
+  top: 10%;
+  left: 16.2%;
+  right: 16.2%;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 96px;
+  opacity: 1;
+  color: white;
+}
+
+.popular {
+  width: 184px;
+  color: white;
+  position: absolute;
+  top: 36%;
+  left: 17%;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.webdep {
+  border-radius: 5rem;
+  border: 3px solid white;
+  width: 180px;
+  height: 30px;
+  color: rgba(249, 249, 249, 1);
+  position: absolute;
+  top: 36%;
+  left: 29%;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.webdep:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.ingegnere {
+  border-radius: 5rem;
+  border: 3px solid white;
+  width: 180px;
+  height: 30px;
+  color: rgba(249, 249, 249, 1);
+  position: absolute;
+  top: 36%;
+  left: 42%;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.ingegnere:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.uidesigner {
+  border-radius: 5rem;
+  border: 3px solid white;
+  width: 180px;
+  height: 30px;
+  color: rgba(249, 249, 249, 1);
+  position: absolute;
+  top: 36%;
+  left: 55%;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.uidesigner:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.debugger {
+  border-radius: 5rem;
+  border: 3px solid white;
+  width: 180px;
+  height: 30px;
+  color: rgba(249, 249, 249, 1);
+  position: absolute;
+  top: 36%;
+  left: 68%;
+  font-family: Inter;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+.debugger:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.link-cursor{
+  text-decoration: none;
+  color: rgba(249, 249, 249, 1);
+  display: block;
+}
+
+.link-cursor:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 107px;
+  height: 47px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  overflow: hidden;
+}
+
+.accedi {
+  width: auto;
+  color: white;
+  position: absolute;
+  top: 1.5%;
+  left: 85%;
+}
+
+.accedi_a {
+  border-radius: 5rem;
+  border: 3px solid white;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Roboto;
+  line-height: 24px;
+  margin: auto;
+  padding: 12px 32px 12px 82px;
+  position: relative;
+  text-decoration: none;
+}
+
+.registrati{
+  width: auto;
+  color: white;
+  position: absolute;
+  top: 1.5%;
+  left: 70%;
+}
+
+.registrati_a{
+  border-radius: 5rem;
+  border: 3px solid white;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Roboto;
+  line-height: 24px;
+  margin: auto;
+  padding: 12px 32px 12px 82px;
+  position: relative;
+  text-decoration: none;
+}
+
+.registrati_a .label,
+.registrati_a .icon-arrow {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  perspective: 1000;
+}
+
+.registrati_a .label {
+  display: inline-block;
+  transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.registrati_a .icon-arrow {
+  fill: white;
+  height: 12px;
+  top: 18.5px;
+  transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1), opacity .4s cubic-bezier(0.86, 0, 0.07, 1);
+  width: 35px;
+}
+
+.registrati_a .icon-arrow.before {
+  left: 32px;
+  margin-right: 15px;
+  position: absolute;
+  transform-origin: left center;
+}
+
+.registrati_a .icon-arrow.after {
+  fill: white;
+  margin-left: 15px;
+  opacity: 0;
+  position: absolute;
+  right: 32px;
+  transform: translateX(75%) scaleX(0.1);
+  transform-origin: right center;
+}
+
+.registrati_a:hover .label {
+  transform: translateX(-52px);
+}
+
+.registrati_a:hover .icon-arrow.before {
+  opacity: 0;
+  transform: translateX(-75%) scaleX(0.1);
+}
+
+.registrati_a:hover .icon-arrow.after {
+  opacity: 1;
+  transform: translateX(0) scaleX(1);
+}
+
+.registrati_a:active {
+  border-color: #FD6154;
+  color: #FD6154;
+}
+
+.registrati_a:active .icon-arrow {
+  fill: #FD6154;
+}
+
+.accedi_a .label,
+.accedi_a .icon-arrow {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  perspective: 1000;
+}
+
+.accedi_a .label {
+  display: inline-block;
+  transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.accedi_a .icon-arrow {
+  fill: white;
+  height: 12px;
+  top: 18.5px;
+  transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1), opacity .4s cubic-bezier(0.86, 0, 0.07, 1);
+  width: 35px;
+}
+
+.accedi_a .icon-arrow.before {
+  left: 32px;
+  margin-right: 15px;
+  position: absolute;
+  transform-origin: left center;
+}
+
+.accedi_a .icon-arrow.after {
+  fill: white;
+  margin-left: 15px;
+  opacity: 0;
+  position: absolute;
+  right: 32px;
+  transform: translateX(75%) scaleX(0.1);
+  transform-origin: right center;
+}
+
+.accedi_a:hover .label {
+  transform: translateX(-52px);
+}
+
+.accedi_a:hover .icon-arrow.before {
+  opacity: 0;
+  transform: translateX(-75%) scaleX(0.1);
+}
+
+.accedi_a:hover .icon-arrow.after {
+  opacity: 1;
+  transform: translateX(0) scaleX(1);
+}
+
+.accedi_a:active {
+  border-color: #FD6154;
+  color: #FD6154;
+}
+
+.accedi_a:active .icon-arrow {
+  fill: #FD6154;
+}
+
+.hashtag {
+  width: 100%;
+  color: black;
+  position: absolute;
+  top: 53.1%;
+  left: 5%;
+  font-family: Inter;
+  font-weight: medium;
+}
+
+.ricerca_pro{
+  width: 2%;
+  height: 1.5%;
+  position: absolute;
+  top: 55.4%;
+  left: 5.3%;
+}
+
+.search_pro {
+  width: 20%;
+  height: 2.2%;
+  border-radius: 8rem;
+  border: 0px solid grey;
+  position: absolute;
+  top: 55%;
+  left: 4.5%;
+  text-indent: 15%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  box-shadow:
+    0 2px 4px rgba(31, 29, 29, 0.1),
+    0 4px 8px rgba(31, 29, 29, 0.2),
+    0 6px 12px rgba(31, 29, 29, 0.3);
+}
+
+.table {
+  position: absolute;
+  top: 60%;
+  left: 5.2%;
+}
+
+.row {
+  display: table-row;
+  border: none;
+}
+
+.cell {
+  display: table-cell;
+  border: none;
+  padding: 20px;
+  width: 10%;
+  font-family: Inter;
+  font-weight: Regular;
+}
+
+.symbase_img,
+.wells_img,
+.sirotov_img,
+.toyo_img,
+.alpaca_img,
+.bom_img,
+.facial_img,
+.html_img,
+.alpha_img,
+.picker_img,
+.vary_img,
+.belvu_img{
+  width: 60%;
+  height: 60%;
+}
+
+.symbase,
+.wells,
+.sirotov
+.toyo,
+.alpaca,
+.bom,
+.facial,
+.html,
+.alpha,
+.picker,
+.vary,
+.belvu{
+  font-family: Inter;
+  font-weight: Regular;
+  margin-top: 3%;
+}
+
+.symbase_img:hover,
+.wells_img:hover,
+.sirotov_img:hover,
+.toyo_img:hover,
+.alpaca_img:hover,
+.bom_img:hover,
+.facial_img:hover,
+.html_img:hover,
+.alpha_img:hover,
+.picker_img:hover,
+.vary_img:hover,
+.belvu_img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}

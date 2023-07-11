@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="../css/cv.css" rel="stylesheet" />
+    <script defer src="../date.js"></script>
+    <script defer src="../js/bottone_home.js"></script>
+    <script defer src="../js/descrizione_exp.js"></script>
+    <script defer src="../js/cv.js"></script>
+    <script defer src="../js/info.js"></script>
+    <script defer src="../js/progetti.js"></script>
+    <script defer src="../js/competenze.js"></script>
+    <title>Profilo</title>
+    <link rel="icon" href="../img_login/Logo_inter.png" type="image/png">
+</head>
+
+<body>
+    <div class="sfondo">
+        <div class="logo"></div>
+        <div class="home">
+            <a href="index2.html" class="home_a" id="reg_b">
+                <svg class="icon-arrow before">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+                <span class="label">Home</span>
+                <svg class="icon-arrow after">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+            </a>
+
+            <svg style="display: none;">
+                <defs>
+                    <symbol id="arrow" viewBox="0 0 35 15">
+                        <title>Arrow</title>
+                        <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z " />
+                    </symbol>
+                </defs>
+            </svg>
+        </div>
+
+        <div class="esci">
+            <a href="index.html" class="esci_a">
+                <svg class="icon-arrow before">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+                <span class="label">Esci</span>
+                <svg class="icon-arrow after">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+            </a>
+
+            <svg style="display: none;">
+                <defs>
+                    <symbol id="arrow" viewBox="0 0 35 15">
+                        <title>Arrow</title>
+                        <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z " />
+                    </symbol>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+    <div class="info">
+        <div id="img_prof"></div>
+        <div id="nom_cogn"></div>
+        <div id="professione" class="professione"></div>
+        <div class="pos_img"></div><div id="residenza" class="posizione"></div>
+        <button class="contatta">Modifica Profilo</button>
+        <div class="email_img"></div><div id="email" class="email"></div>
+        <div class="tel_img"></div><div id="telefono" class="telefono"></div>
+        <div class="sito" id="sito"></div>
+        <button class="insta"></button>
+        <button class="linkin"></button>
+        <button class="fb"></button>
+        <div class="visual_img"></div><p class="visual">Visualizzazioni profilo: 150</p>
+        <div class="cuori_img"></div><p class="cuori">Apprezzamenti: 53</p>
+    </div>
+
+    <div>
+        <button class="btn_progetti" id="btn_progetti">Progetti</button>
+        <button class="btn_competenze" id="btn_competenze">Competenze</button>
+        <button class="btn_info" id="btn_info">Informazioni</button>
+
+    </div>
+
+    <div id="stampa_info"></div>
+    <div><button class="stampa_cv">Scarica CV</button></div>
+</body>
+
+</html>

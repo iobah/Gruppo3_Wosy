@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="../css/cv.css" rel="stylesheet" />
+    <script defer src="../date.js"></script>
+    <script defer src="../js/bottone_home.js"></script>
+    <script defer src="../js/descrizione_exp.js"></script>
+    <script defer src="../js/info_pag_ricerca.js"></script>
+    <script defer src="../js/cuore.js"></script>
+    <title>Profilo</title>
+    <link rel="icon" href="../img_login/Logo_inter.png" type="image/png">
+</head>
+
+<body>
+    <div class="sfondo">
+        <div class="logo"></div>
+        <div class="home">
+            <a href="index2.html" class="home_a" id="reg_b">
+                <svg class="icon-arrow before">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+                <span class="label">Home</span>
+                <svg class="icon-arrow after">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+            </a>
+
+            <svg style="display: none;">
+                <defs>
+                    <symbol id="arrow" viewBox="0 0 35 15">
+                        <title>Arrow</title>
+                        <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z " />
+                    </symbol>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+    <img src="../images_cv_reg/Cuore-vuoto.png" class="cuore_vuoto" id="cuore" onclick="cambia_cuore()">
+    <div class="info">
+        <img src="../images_cv_reg/immagine_profilo.jpg" class='img_profilo'>
+        <p class="nome">Alessandro Rossi</p>
+        <div class="professione">Programmatore</div>
+        <div class="pos_img"></div><div class="posizione">Genova, Italia</div>
+        <button class="contatta" onclick='showContatta()'>Contatta</button><div id='popup-contatta' class='popup'><div class='popup-content' id='popup-content'><span class='close' onclick='closeContatta()'>&times;</span><img src="../images_cv_reg/immagine_profilo.jpg" class='img_profilo_pop-up'><h1 class='pop-up-titolo'>Scrivi il tuo messaggio</h1><textarea class="textarea"></textarea><button class="invia">Invia messaggio</button></div></div>
+        <div class="email_img"></div><div class="email">alessandrorossi@gmail.com</div>
+        <div class="tel_img"></div><div class="telefono">+39 34567890</div>
+        <div class="sito"> <a href="" class='link'>www.alerossi.it</a></div>
+        <button class="insta"></button>
+        <button class="linkin"></button>
+        <button class="fb"></button>
+        <div class="visual_img"></div><p class="visual">Visualizzazioni profilo: 200</p>
+        <div class="cuori_img"></div><p class="cuori">Apprezzamenti: 107</p>
+    </div>
+
+    <div>
+        <button class="btn_progetti" id="btn_progetti_fake">Progetti</button>
+        <button class="btn_competenze" id="btn_competenze_fake">Competenze</button>
+        <button class="btn_info" id="btn_info_fake">Informazioni</button>
+
+    </div>
+
+    <div id="stampa_info_fake"></div>
+    <div><button class="stampa_cv">Scarica CV</button></div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+.v115_782 {
+    width: 107px;
+    height: 47px;
+    background: url("../images_cv_reg/v115_782.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    overflow: hidden;
+}
+
+
+nav {
+    width: 100%;
+    height: 235px;
+    background: url("../images_cv_reg/v115_766.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: "Futura", Arial, sans-serif;
+    font-size: 140%;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("percorso/font/Futura.ttf");
+}
+
+button:hover {
+    cursor: pointer;
+    color: #141212;
+    /* Cambia il cursore al passaggio del mouse */
+}
+
+a {
+    display: block;
+    color: #fff;
+    /* Colore del testo dei link */
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Futura", Arial, sans-serif;
+    font-size: 140%;
+}
+
+a:hover {
+    color: #141212;
+    /* Colore di sfondo dei link al passaggio del mouse */
+}
